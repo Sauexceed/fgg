@@ -1,6 +1,10 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-10-10T13:45:34
+# Project:  FFFGGG.pro
+# Software: Fuguan
+# Qt version:
+# > First built with Qt 5.9
+# > Later release with Qt 6.0
 #
 #-------------------------------------------------
 
@@ -24,26 +28,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        startwindow.cpp \
+    main.cpp \
+    startwindow.cpp \
     player.cpp \
     mainwindow.cpp \
     data.cpp \
     votedialog.cpp
 
 HEADERS += \
-        startwindow.h \
+    startwindow.h \
     player.h \
     mainwindow.h \
     data.h \
     votedialog.h
 
 FORMS += \
-        startwindow.ui \
+    startwindow.ui \
     mainwindow.ui \
     votedialog.ui
 
-RC_ICONS=fg.ico
+RC_ICONS = fg.ico
 
 RESOURCES += \
     res.qrc
